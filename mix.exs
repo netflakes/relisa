@@ -27,6 +27,9 @@ defmodule Relisa.Mixfile do
   end
 
   defp deps do
-    [{:exrm, "~> 0.18.5"}]
+    [
+      {:relx, "~> 3.19.0"},
+      {:exrm, "~> 1.0.3"}
+    ]
   end
 end
