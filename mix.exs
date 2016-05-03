@@ -4,7 +4,7 @@ defmodule Relisa.Mixfile do
   def project do
     [app: :relisa,
      version: "0.1.0",
-     elixir: "~> 1.0",
+     elixir: "~> 1.2.3",
      description: "Fast, simple, and composable deployment library for Elixir.",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
